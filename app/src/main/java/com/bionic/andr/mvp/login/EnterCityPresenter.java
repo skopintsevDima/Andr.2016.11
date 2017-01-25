@@ -71,7 +71,7 @@ public class EnterCityPresenter {
     }
 
     private boolean isCityValid(CharSequence cityName) {
-        return !(cityName.length() > 1);
+        return (cityName.length() > 1);
     }
 
 }
