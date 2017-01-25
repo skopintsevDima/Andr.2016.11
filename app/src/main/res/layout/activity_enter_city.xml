@@ -6,20 +6,14 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/login_email"
+        android:id="@+id/city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/email"
+        android:hint="@string/city"
         android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/login_pass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/password"/>
-
     <Button
-        android:id="@+id/login_submit"
+        android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/submit"/>

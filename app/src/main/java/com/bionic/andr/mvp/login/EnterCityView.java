@@ -5,11 +5,10 @@ import com.bionic.andr.api.data.Weather;
 import rx.Observable;
 
 /**  */
-public interface LoginView {
+public interface EnterCityView {
 
-    Observable<CharSequence> emailChange();
-    Observable<CharSequence> passwordChange();
-    Observable<Void> tryToLogin();
+    Observable<CharSequence> cityChange();
+    Observable<Void> submit();
 
     void onValidationCheck(boolean valid);
     void showProgress(boolean show);
