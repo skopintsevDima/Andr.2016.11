@@ -44,6 +44,7 @@ public class EnterCityActivity extends AppCompatActivity implements EnterCityVie
 
         presenter = new EnterCityPresenter(AndrApp.getAppComponent());
         presenter.attach(this);
+        //
     }
 
     @Override
